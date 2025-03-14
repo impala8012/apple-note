@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tiptap ol,
+.tiptap ul {
+  font-family: "Playfair", serif;
+  @apply ml-8 list-outside !mt-2;
+}
+
+.tiptap ol {
+  @apply list-decimal;
+}
+.tiptap ul {
+  @apply list-disc;
+}
+
+.tiptap ol li,
+.tiptap ul li {
+  @apply mt-2 first:mt-0;
+}
+
+.tiptap table {
+  @apply border border-gray-300 table-fixed border-collapse w-full;
+}
+
+.tiptap table th,
+.tiptap table td {
+  @apply border border-gray-300 py-1 px-2 relative;
+}
+
+.tiptap table th {
+  @apply bg-blue-400;
+}
+
+.tiptap .tableWrapper {
+  @apply overflow-auto;
+}
+
+.tiptap p,
+p * {
+  font-family: "Playfair", serif !important;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+
+.tiptap h1 {
+  @apply text-4xl;
+}
+.tiptap h2 {
+  @apply text-3xl;
+}
+
+.tiptap h3 {
+  @apply text-2xl;
+}
+
+/* 被選取的表格顏色 */
+.ProseMirror .selectedCell:after {
+  @apply z-[2] absolute inset-0 bg-gray-400/30 pointer-events-none content-[''];
+}

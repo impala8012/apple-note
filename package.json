@@ -1,0 +1,58 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.9.0",
+    "@nuxtjs/i18n": "^9.3.1",
+    "@prisma/nuxt": "^0.3.0",
+    "@tabler/core": "^1.1.1",
+    "@tabler/icons-vue": "^3.31.0",
+    "@tiptap/extension-color": "^2.11.5",
+    "@tiptap/extension-document": "^2.11.5",
+    "@tiptap/extension-placeholder": "^2.11.5",
+    "@tiptap/extension-table": "^2.11.5",
+    "@tiptap/extension-table-cell": "^2.11.5",
+    "@tiptap/extension-table-header": "^2.11.5",
+    "@tiptap/extension-table-row": "^2.11.5",
+    "@tiptap/extension-task-item": "^2.11.5",
+    "@tiptap/extension-task-list": "^2.11.5",
+    "@tiptap/extension-text-align": "^2.11.5",
+    "@tiptap/extension-text-style": "^2.11.5",
+    "@tiptap/extension-underline": "^2.11.5",
+    "@tiptap/starter-kit": "^2.11.5",
+    "@vueuse/core": "^12.0.0",
+    "@vueuse/nuxt": "^12.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "nuxt": "^3.14.1592",
+    "nuxt-tiptap-editor": "^2.1.4",
+    "sweetalert2": "^11.14.5",
+    "validator": "^13.12.0",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^1.5.0",
+    "@prisma/client": "^6.5.0",
+    "@types/node": "^22.13.9",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "prisma": "^6.5.0",
+    "sass": "^1.85.1",
+    "tailwindcss": "^3.4.15",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vue-tsc": "^2.2.8"
+  },
+  "resolutions": {
+    "cookie": "0.7.2"
+  }
+}
